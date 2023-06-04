@@ -14,25 +14,25 @@ You will need to access the OpenShift console  to install applications used in t
 
 1. Select the **ldapidp** user repository
 
-  [![](images/ocp-login.png)](images/ocp-login.png)
+    [![](images/ocp-login.png)](images/ocp-login.png)
 
 1. Enter the same username and password you used in the previous step and click on **Log in**.
 
 1. Click on **Skip tour** when prompted 
 
-   [![](images/skip-tour.png)](images/skip-tour.png)
+    [![](images/skip-tour.png)](images/skip-tour.png)
 
 1. Switch to the **Administrator** view 
 
-   [![](images/admin-view.png)](images/admin-view.png)
+    [![](images/admin-view.png)](images/admin-view.png)
 
 1. Click on the link for the project with the same name as your username.
 
-   [![](images/student-project.png)](images/student-project.png)
+    [![](images/student-project.png)](images/student-project.png)
 
 1. The OpenShift console should now look like the following image. Keep this browser tab open as you will need to use the OpenShift console during the labs
 
-   [![](images/ocp-console.png)](images/ocp-console.png)
+    [![](images/ocp-console.png)](images/ocp-console.png)
 
 ## CP4I Platform Navigator
 
