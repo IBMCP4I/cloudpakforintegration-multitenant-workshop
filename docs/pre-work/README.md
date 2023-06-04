@@ -14,7 +14,7 @@ To log in to the  Platform Navigator do the following:
 
     [![](images/pn-login.png)](images/pn-login.png)
 
->**Note:** You may have some browser warnings about self-signed certificates. If this happens, continue to the Platform Navigator page anyway. 
+     >**Note:** You may have some browser warnings about self-signed certificates. If this happens, continue to the Platform Navigator page anyway. 
 
 1. The will launch the CP4I Platform Navigator with links to all the various CP4I components. Keep this tab open for the rest of the workshop as it has all the information and links needed for you to complete the lab exercises.
 

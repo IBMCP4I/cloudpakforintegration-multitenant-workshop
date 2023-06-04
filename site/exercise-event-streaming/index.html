@@ -551,15 +551,19 @@
 <p><em>Note: You can enter <code>traderlite</code> in the search by name input field to filter the pods.</em></p>
 </blockquote>
 <h2 id="step-2-create-a-topic-in-the-event-streams-management-console">Step 2: Create a topic in the Event Streams Management Console<a class="headerlink" href="#step-2-create-a-topic-in-the-event-streams-management-console" title="Permanent link">&para;</a></h2>
-<p>2.1  Go to your Workshop Information page and click on the Event Streams component link. (<strong>Note:</strong> if you no longer have the Workshop Information page available see <a href="../pre-work/">these instructions</a>).</p>
+<p>2.1 Go to the CP4I Platform Navigator browser tab</p>
+<blockquote>
+<p><strong>Note</strong>: If you've closed the Platform Navigator tab in your browser follow the instructions in the <a href="https://ibmcp4i.github.io/cloudpakforintegration-multitenant-workshop/faq/">FAQ</a>.</p>
+</blockquote>
+<p>2.2 Click on the link to the Event Streams instance</p>
 <p><a href="images/nav-to-es.png"><img alt="" src="images/nav-to-es.png" /></a></p>
-<p>2.2 If prompted to login enter the credentials on the Workshop Information page</p>
-<p>2.3 Click on the <strong>Create a topic</strong> tile</p>
+<p>2.3 If prompted to login select the <strong>Enterprise LDAP</strong> user registry and log in with your credentials.</p>
+<p>2.4 Click on the <strong>Create a topic</strong> tile</p>
 <p><a href="images/create-topic.png"><img alt="" src="images/create-topic.png" /></a></p>
-<p>2.4 Use your username for the name of the topic. For example, if your username is <code>student005</code> then name the topic <code>student005</code>.  Click <strong>Next</strong>.</p>
-<p>2.5 Leave the default for message retention and click <strong>Next</strong>.</p>
-<p>2.6 Leave the default for replicas and click <strong>Create topic</strong>.</p>
-<p>2.7 You should see your new topic listed.</p>
+<p>2.5 Use your username for the name of the topic. For example, if your username is <code>student005</code> then name the topic <code>student005</code>.  Click <strong>Next</strong>.</p>
+<p>2.6 Leave the default for message retention and click <strong>Next</strong>.</p>
+<p>2.7 Leave the default for replicas and click <strong>Create topic</strong>.</p>
+<p>2.8 You should see your new topic listed.</p>
 <p><a href="images/new-topic.png"><img alt="" src="images/new-topic.png" /></a></p>
 <h2 id="step-3-add-messaging-components-to-the-trader-lite-app">Step 3: Add messaging components to the Trader Lite app<a class="headerlink" href="#step-3-add-messaging-components-to-the-trader-lite-app" title="Permanent link">&para;</a></h2>
 <p>In this section you will install the TraderLite app to start storing transactions as MQ messages, without setting up the KafkaConnect part that will move the transactions out of MQ, into Event Streams and then into MongoDB. This demonstrates how MQ can serve as a reliable store and forward buffer especially during temporary network disruption.</p>
@@ -583,7 +587,8 @@
 </ul>
 <p><a href="images/traderlite-create-values.png"><img alt="" src="images/traderlite-create-values.png" /></a></p>
 <p>3.6 Scroll down and click <strong>Create</strong></p>
-<p>3.7 In the left navigation select <strong>Pods</strong> (in the <strong>Workloads</strong> section) and then wait for all the TraderLite pods to have a status of <strong>Running</strong> and be in the <strong>Ready</strong> state.</p>
+<p>3.7 In the left navigation select <strong>Pods</strong> (in the <strong>Workloads</strong> section) and then wait for all the TraderLite pods to have a status of <strong>Running</strong> and be in the <strong>Ready</strong> state.
+mkdocs </p>
 <blockquote>
 <p><em>Note: You will know the traderlite-xxxxx pods are  in a ready state when the <code>Ready</code> column shows <code>1/1</code>.</em></p>
 </blockquote>
