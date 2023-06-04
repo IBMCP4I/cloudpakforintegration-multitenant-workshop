@@ -43,7 +43,7 @@ You will need to access the OpenShift console  to install applications used in t
 
    [![](images/student-project.png)](images/student-project.png)
 
-1. The OpenShift console should now look like the following image. Keep this browser tab open as you will need to use teh OpenShift console during the labs
+1. The OpenShift console should now look like the following image. Keep this browser tab open as you will need to use the OpenShift console during the labs
 
    [![](images/ocp-console.png)](images/ocp-console.png)
 

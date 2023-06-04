@@ -1,8 +1,8 @@
 # Frequently Asked Questions & Helpful Tips / Tricks
 
 1. [How do I get to the workshop OpenShift console?](#your-workshop-openshift-cluster-console)
-1. [How do I get to the workshop information page?](#workshop-information-page)
-1. [I don't have the trader lite application, how can I install it?](#traderlite-application-installation)
+1. [How do I get to the CP4I Platform Navigator?](#cp4i-platform-navigator)
+1. [I don't have the TraderLite application, how can I install it?](#traderlite-application-installation)
 
 >**Note:** You can click on any image in the instructions below to zoom in and see more details. When you do that just click on your browser's back button to return to the previous state.
 
@@ -10,34 +10,47 @@
 
 ## Your workshop OpenShift cluster console 
 
-Open the OpenShift console on your workshop cluster:
+You will need to access the OpenShift console  to install applications used in the lab to interact with the CP4I components . Your instructor will provide you with a link . Click on the link for the  OpenShift console.
 
- > **Note:** You can click on any image in the instructions below to zoom in and see more details. When you do that just click on your  browser's back button to return to the previous state.
+1. Select the **ldapidp** user repository
 
-1. Got to the [IBM Cloud](https://cloud.ibm.com) landing page. Click on the OpenShift cluster icon in the left navigation.
+  [![](images/ocp-login.png)](images/ocp-login.png)
 
-    [![](images/cloud-roks.png)](images/cloud-roks.png)
+ 1. Enter the same username and password you used in the previous step and click on **Log in**.
 
-1. Select your workshop cluster.
+ 1. Click on **Skip tour** when prompted 
 
-    [![](images/cloud-account.png)](images/cloud-account.png)
+   [![](images/skip-tour.png)](images/skip-tour.png)
 
-1. Details for your cluster will load.
+1. Switch to the **Administrator** view 
 
-1. Click on *OpenShift web console* to launch the console.
+   [![](images/admin-view.png)](images/admin-view.png)
 
-    [![](images/open-console.png)](images/open-console.png)
+1. Click on the link for the project with the same name as your username.
+
+   [![](images/student-project.png)](images/student-project.png)
 
 
-## Workshop Information Page
 
-If you no longer have your workshop cluster OpenShift console open, follow the instructions in the  previous section and then return here. 
+## CP4I Platform Navigator
 
-1. Go to the OpenShift console of your assigned cluster. Select your  ***studentnnn*** project. In the navigation on the left, select **Routes** in the **Operators** section.
+The Cloud Pak for Integration Platform Navigator is a web based application that  allows you to access all the components in CP4I.  Your instructor will provider you with a URL for the CP4I  Platform Navigator and a username and password . You will need this link to access all  this CP4I components that you will use in the labs. We recommend that you keep it open in a separate tab. 
 
-1. Click on the icon next to the url for the **workshop-info** route. This will open the webpage in a new tab.
+To log in to the  Platform Navigator do the following:
 
-    [![](images/workshop-info-route.png)](images/workshop-info-route.png)
+1.  Click on the link provided to you by your instructor for the Platforn Navigator:
+
+
+1. Select the **Enterprise LDAP** user repository, enter your username and password and click on **Log in**
+
+    [![](images/pn-login.png)](images/pn-login.png)
+
+>**Note:** You may have some browser warnings about self-signed certificates. If this happens, continue to the Platform Navigator page anyway. 
+
+1. The will launch the CP4I Platform Navigator with links to all the various CP4I components. Keep this tab open for the rest of the workshop as it has all the information and links needed for you to complete the lab exercises.
+
+    [![](images/pn-landing-page.png)](images/pn-landing-page.png)
+
 
 ## Traderlite Application Installation
 

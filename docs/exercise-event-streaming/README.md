@@ -59,23 +59,27 @@ If you've completed the API Connect and/or the Salesforce integration labs then 
 
 ## Step 2: Create a topic in the Event Streams Management Console
 
-2.1  Go to your Workshop Information page and click on the Event Streams component link. (**Note:** if you no longer have the Workshop Information page available see [these instructions](../pre-work/README.md)).
+2.1 Go to the CP4I Platform Navigator browser tab
 
-  [![](images/nav-to-es.png)](images/nav-to-es.png)
+  > **Note**: If you've closed the Platform Navigator tab in your browser follow the instructions in the [FAQ](https://ibmcp4i.github.io/cloudpakforintegration-multitenant-workshop/faq/).
 
-2.2 If prompted to login enter the credentials on the Workshop Information page
+2.2 Click on the link to the Event Streams instance
 
-2.3 Click on the **Create a topic** tile
+   [![](images/nav-to-es.png)](images/nav-to-es.png)
+
+2.3 If prompted to login select the **Enterprise LDAP** user registry and log in with your credentials.
+
+2.4 Click on the **Create a topic** tile
 
   [![](images/create-topic.png)](images/create-topic.png)
 
-2.4 Use your username for the name of the topic. For example, if your username is `student005` then name the topic `student005`.  Click **Next**.
+2.5 Use your username for the name of the topic. For example, if your username is `student005` then name the topic `student005`.  Click **Next**.
 
-2.5 Leave the default for message retention and click **Next**.
+2.6 Leave the default for message retention and click **Next**.
 
-2.6 Leave the default for replicas and click **Create topic**.
+2.7 Leave the default for replicas and click **Create topic**.
 
-2.7 You should see your new topic listed.
+2.8 You should see your new topic listed.
 
   [![](images/new-topic.png)](images/new-topic.png)
 
@@ -108,7 +112,7 @@ In this section you will install the TraderLite app to start storing transaction
 3.6 Scroll down and click **Create**
 
 3.7 In the left navigation select **Pods** (in the **Workloads** section) and then wait for all the TraderLite pods to have a status of **Running** and be in the **Ready** state.
-
+mkdocs 
 > *Note: You will know the traderlite-xxxxx pods are  in a ready state when the `Ready` column shows `1/1`.*
 
 
