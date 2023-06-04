@@ -16,9 +16,9 @@ You will need to access the OpenShift console  to install applications used in t
 
   [![](images/ocp-login.png)](images/ocp-login.png)
 
- 1. Enter the same username and password you used in the previous step and click on **Log in**.
+1. Enter the same username and password you used in the previous step and click on **Log in**.
 
- 1. Click on **Skip tour** when prompted 
+1. Click on **Skip tour** when prompted 
 
    [![](images/skip-tour.png)](images/skip-tour.png)
 
@@ -30,7 +30,9 @@ You will need to access the OpenShift console  to install applications used in t
 
    [![](images/student-project.png)](images/student-project.png)
 
+1. The OpenShift console should now look like the following image. Keep this browser tab open as you will need to use the OpenShift console during the labs
 
+   [![](images/ocp-console.png)](images/ocp-console.png)
 
 ## CP4I Platform Navigator
 
@@ -45,7 +47,7 @@ To log in to the  Platform Navigator do the following:
 
     [![](images/pn-login.png)](images/pn-login.png)
 
->**Note:** You may have some browser warnings about self-signed certificates. If this happens, continue to the Platform Navigator page anyway. 
+    >**Note:** You may have some browser warnings about self-signed certificates. If this happens, continue to the Platform Navigator page anyway. 
 
 1. The will launch the CP4I Platform Navigator with links to all the various CP4I components. Keep this tab open for the rest of the workshop as it has all the information and links needed for you to complete the lab exercises.
 

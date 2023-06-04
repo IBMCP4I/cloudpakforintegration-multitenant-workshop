@@ -29,9 +29,9 @@ You will need to access the OpenShift console  to install applications used in t
 
   [![](images/ocp-login.png)](images/ocp-login.png)
 
- 1. Enter the same username and password you used in the previous step and click on **Log in**.
+1. Enter the same username and password you used in the previous step and click on **Log in**.
 
- 1. Click on **Skip tour** when prompted 
+1. Click on **Skip tour** when prompted 
 
    [![](images/skip-tour.png)](images/skip-tour.png)
 
